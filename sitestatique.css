@@ -54,8 +54,9 @@ ul {
 }
 .collés {
     display: flex;
-    justify-content:space-between;
-    width : 70%;
+    justify-content:center;
+    width : 100%;
+    gap : 5%;
 }
 .liste {
     display: flex;
