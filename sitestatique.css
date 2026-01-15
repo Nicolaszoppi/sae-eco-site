@@ -48,7 +48,7 @@ ul {
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    gap:10%;
+    gap:16px;
     margin-bottom:2%;
 }
 .fullcentré {
@@ -61,7 +61,7 @@ ul {
     justify-content:center;
     align-items:center;
     width : 100%;
-    gap : 6%;
+    gap : 8px;
 }
 .liste {
     display: flex;
@@ -84,7 +84,7 @@ ul {
     justify-content:center;
     width:80%;
     flex-direction:row;
-    gap:10%;
+    gap:16px;
     margin-bottom:1%;
 }
 .suivis {
