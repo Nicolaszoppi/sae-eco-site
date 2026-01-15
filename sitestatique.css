@@ -1,4 +1,8 @@
+html, body {
+  overflow-x: hidden;
+}
 body {
+
     width:100%;
     margin: 0%;
 }
@@ -66,8 +70,9 @@ ul {
     width: 100%;
 }
 .image1 {
-    height: 35%;
-    width : 45%;
+    width:100%;
+    max-width: 250px;
+    height: auto;
 }
 .image2 {
     height: 60%;
