@@ -1,6 +1,6 @@
 body {
     width:100%;
-    margin: 0;
+    margin: 0%;
 }
 ul {
   margin: 0;
@@ -11,7 +11,7 @@ ul {
   box-sizing: border-box;
 }
 .page {
-    background-color: #4e2683;
+    background-color: #290758;
     width:100%;
     display:flex;
     align-items:center;
@@ -21,8 +21,23 @@ ul {
 }
 .titre {
     display:flex;
+    width:100%;
     align-items: center;
     justify-content:center;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.titrenonencadrer {
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+}
+.titre-principal{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:400px;
 }
 .centré {
     width:100%;
@@ -30,7 +45,8 @@ ul {
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    gap:10px;
+    gap:10%;
+    margin-bottom:10px;
 }
 .fullcentré {
     display: flex;
@@ -39,11 +55,8 @@ ul {
 }
 .collés {
     display: flex;
-    justify-content:center;
-    width:100%;
-    flex-direction:row;
-    gap:50px;
-    margin-bottom: 20px;
+    justify-content:space-between;
+    gap:5%;
 }
 .liste {
     display: flex;
@@ -58,6 +71,7 @@ ul {
 .image2 {
     height: 350px;
     width : 800px;
+    margin-bottom: 1%;
 }
 .textecollés {
     display: flex;
@@ -65,6 +79,7 @@ ul {
     width:80%;
     flex-direction:row;
     gap:10%;
+    margin-bottom:10px;
 }
 .suivis {
     display: flex;
@@ -81,15 +96,18 @@ ul {
 }
 .textlist {
     text-align: left;
+    margin-bottom:5px;
 }
 .screen {
+    background-color : rgb(192, 194, 197);
     width:80%;
-    background-color: #f0f0f0;
     display:flex;
     align-items:center;
     justify-content:center;
     flex-direction:column;
     gap:10px;
+    border-radius: 25px;
+    margin-bottom:1%;
 }
 .tirets {
     display : flex;
@@ -97,5 +115,10 @@ ul {
     align-items : center;
     flex-direction: column;
     width : 70%;
+    margin-bottom:5px;
 
+}
+.texte {
+    padding:10px;
+    margin-bottom:5px;
 }
