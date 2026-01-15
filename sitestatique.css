@@ -75,6 +75,7 @@ ul {
     width:100%;
     max-width: 225px;
     max-height: 200px;
+    height:auto;
 }
 .image2 {
     height: 60%;
