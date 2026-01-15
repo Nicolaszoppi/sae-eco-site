@@ -36,7 +36,7 @@ ul {
     display:flex;
     align-items: center;
     justify-content: center;
-    width:400px;
+    width:30%;
 }
 .centré {
     width:100%;
@@ -68,8 +68,8 @@ ul {
     width : 225px;
 }
 .image2 {
-    height: 350px;
-    width : 800px;
+    height: 30%;
+    width : 40%;
     margin-bottom: 1%;
 }
 .textecollés {
